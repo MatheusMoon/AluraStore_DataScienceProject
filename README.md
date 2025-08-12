@@ -1,60 +1,111 @@
-# 📊 Alura Store – Data Science Challenge
+# 📊 AluraStore - Data Science Project
 
-[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
-[![Pandas](https://img.shields.io/badge/Pandas-1.x-purple?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)](https://matplotlib.org/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
+![Pandas](https://img.shields.io/badge/Pandas-1.x-green.svg)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.x-orange.svg)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-red.svg)
+![Status](https://img.shields.io/badge/Status-Concluído-success.svg)
 
----
-
-## 📌 Project Overview
-
-This repository contains the **Alura Store Data Science Challenge**, part of the Data Science Specialization program.  
-The goal is to analyze **sales and performance data** from four stores to help **Mr. João** decide which store to sell in order to invest in a new business.
+Este projeto realiza uma **análise comparativa de desempenho** entre quatro lojas virtuais da **AluraStore**, utilizando dados de vendas, avaliações de clientes e custos de frete.  
+O objetivo é identificar padrões, oportunidades e problemas, a fim de apoiar a **decisão de vender a loja com pior desempenho**.
 
 ---
 
-## 🎯 Objectives
+## 🎯 Propósito da Análise
+O estudo visa responder à seguinte questão de negócio:  
+> "Qual das quatro lojas apresenta pior desempenho e deve ser vendida?"
 
-- Import and process datasets from four stores.
-- Analyze key business metrics:
-  - Total revenue per store
-  - Most popular categories
-  - Average customer ratings
-  - Best and worst-selling products
-  - Average shipping cost
-- Create at least **3 distinct visualizations** using Matplotlib.
-- Write a **final recommendation report** in Markdown within the Colab notebook.
-
----
-
-## 📂 Project Structure
-
-📁 Alura-Store-DS
-├── 📂 Base de Dados # CSV datasets for each store
-│ ├── store_1.csv
-│ ├── store_2.csv
-│ ├── store_3.csv
-│ └── store_4.csv
-├── 📓 Alura_Store.ipynb # Google Colab notebook
-├── 📄 README.md # Project documentation
-└── 📄 LICENSE # License file
+Para isso, foram avaliados:
+- **Faturamento total**
+- **Distribuição de vendas por categoria**
+- **Média de avaliações dos clientes**
+- **Produtos mais e menos vendidos**
+- **Frete médio**
 
 ---
 
-## 🛠️ Technologies & Tools
+## 📂 Estrutura do Projeto
 
-- **Python 3.x**
-- **Google Colab**
-- **Pandas** – Data manipulation
-- **Matplotlib** – Data visualization
-- **Markdown** – Report writing
+```plaintext
+AluraStore_DataScienceProject/
+│
+├── 📄 README.md                     # Documentação do projeto
+├── 📓 AluraStore_DataScienceProject.ipynb  # Notebook com a análise completa
+├── 📁 dados/                         # (Opcional) Pasta para salvar dados CSV localmente
+│   ├── loja_1.csv
+│   ├── loja_2.csv
+│   ├── loja_3.csv
+│   └── loja_4.csv
+└── 📁 imagens/                       # (Opcional) Gráficos exportados para o README
+```
+---
+
+# 📊 Exemplos de Gráficos e Insights Obtidos
+
+Faturamento por Loja
+📌 Insight: Loja 4 possui o menor faturamento.
+
+Distribuição de Categorias
+📌 Insight: "A categoria Móveis é a mais vendida em todas as lojas."
+
+Média de Avaliação
+📌 Insight: Loja 4 tem a segunda pior nota média (4.0).
+
+Frete Médio por Loja
+📌 Insight: Mesmo com o menor frete médio, a Loja 4 não teve bom desempenho.
 
 ---
-📊 Expected Output
-3 visualizations (pie chart, bar chart, line chart, etc.).
 
-Insights on store performance.
+#💡 Principais Conclusões
 
-Markdown report with the final recommendation.
+Loja 4 apresentou:
+
+Menor faturamento
+
+Segunda pior avaliação
+
+Menor frete médio, sem impacto positivo nas vendas
+
+Recomendação: vender a Loja 4
+
+---
+
+▶️ Instruções para Executar o Notebook
+Clonar o repositório:
+
+bash
+Copiar
+Editar
+git clone https://github.com/usuario/AluraStore_DataScienceProject.git
+cd AluraStore_DataScienceProject
+Instalar as dependências:
+É recomendado o uso de um ambiente virtual.
+
+bash
+Copiar
+Editar
+pip install pandas matplotlib
+Executar o notebook:
+
+Abra com Jupyter Notebook ou JupyterLab:
+
+bash
+Copiar
+Editar
+jupyter notebook AluraStore_DataScienceProject.ipynb
+Ou execute direto no Google Colab (subindo o arquivo .ipynb).
+
+---
+
+# 📌 Tecnologias Utilizadas
+Python 3
+
+Pandas → Manipulação e análise de dados
+
+Matplotlib → Visualização gráfica
+
+Jupyter Notebook → Ambiente de desenvolvimento interativo
+
+---
+✍️ Autor: Matheus Cordeiro
+📅 Data: 08/2025
