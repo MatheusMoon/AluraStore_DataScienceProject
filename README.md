@@ -1,7 +1,5 @@
 # 📊 Alura Store – Data Science Challenge
 
-![Banner](https://i.ibb.co/8Njh6zW/alura-store-ds-banner.png)
-
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
 [![Pandas](https://img.shields.io/badge/Pandas-1.x-purple?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
