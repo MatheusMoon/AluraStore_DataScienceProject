@@ -43,10 +43,6 @@ The goal is to analyze **sales and performance data** from four stores to help *
 ├── 📄 README.md # Project documentation
 └── 📄 LICENSE # License file
 
-yaml
-Copiar
-Editar
-
 ---
 
 ## 🛠️ Technologies & Tools
